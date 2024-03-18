@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main() {
+    char f[50], i[50], o[50];
+    printf("Vvedite familiu ");
+    scanf("%s", f);
+    printf("Vvedite imya ");
+    scanf("%s", i);
+    printf("Vvedite otchestvo ");
+    scanf("%s", o);
+    int day, month, year;
+    printf("Vvedite den', mesyac i god rozdenia: ");
+    scanf("%d %d %d", &day, &month, &year);
+    printf("FIO: %s %s %s\n", f, i, o);
+    printf("Data: %d.%d.%d\n", year, month, day);
+    return 0;
+}
